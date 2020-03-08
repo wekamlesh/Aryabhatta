@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js');
+
+body {
+    font-family: 'Open sans';
+}
+
+.custom-h1 {
+    font-size: 32px;
+    color: #0c2e8a;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.custom-h1::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #50d8af;
+    bottom: 0;
+    left: 0;
+}
+
+nav {
+    background-color: #fdd835;
+    ;
+}
+
+.dropdown-menu.show {
+    background-color: rgba(250, 226, 120, 1);
+}
+
+a.nav-link {
+    color: rgb(87, 70, 70) !important;
+    font-weight: bold;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+
+}
+
+a.nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+
+}
+
+
+#logo {
+    height: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #ffef2c;
+}
+
+a.nav-link:hover {
+    color: #2d2f2c !important;
+}
+
+.how-section1 {
+    margin-top: -15%;
+    padding: 10%;
+}
+
+.how-section1 h4 {
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.how-section1 .subheading {
+    color: #3931af;
+    font-size: 20px;
+}
+
+.how-section1 .row {
+    margin-top: 10%;
+}
+
+.how-img {
+    text-align: center;
+}
+
+.how-img img {
+    width: 100%;
+}
+
+
+
+
+marquee{
+    background-color: #1b3fa1;
+   p{
+       font-weight: bold;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       margin-bottom: 0px;
+       color: white;
+   } 
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    #logo {
+        width: 70%;
+        height: 50%;
+    }
+
+    .hero-img {
+        height: 150px;
+    }
+}
+
+.front-page-about {
+
+    .about-us-wrapper {
+        background: skyblue;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    h1 {
+        font-weight: bold;
+
+    }
+}
+
+#about-us {
+    .col1 {
+        width: 100%;
+        height: 100px;
+        background-color: pink;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
